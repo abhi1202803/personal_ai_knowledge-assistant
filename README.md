@@ -1,4 +1,6 @@
-# Personal RAG Chatbot
+# Personal AI Assistant
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/abhi1202803/personal_ai_knowledge-assistant)
 
 A local AI knowledge assistant built with **LangGraph + FastAPI + React**. Create multiple independent knowledge bases, upload PDF/HTML documents, and chat with your data using various LLM providers.
 
