@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: personal-ai-assistant
+    runtime: docker
+    plan: free
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_BASE_URL
+        value: https://api.groq.com/openai/v1
+      - key: CHROMADB_PATH
+        value: /app/data/chromadb
