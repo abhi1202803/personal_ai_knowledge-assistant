@@ -1,0 +1,29 @@
+[project]
+name = "personal-rag-chatbot"
+version = "1.0.0"
+description = "本地 AI 知识助手 - 基于 LangGraph + ChromaDB 的多知识库 RAG 系统"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "langgraph",
+    "langchain",
+    "langchain-openai",
+    "langchain-community",
+    "langchain-text-splitters",
+    "chromadb",
+    "PyMuPDF",
+    "beautifulsoup4",
+    "lxml",
+    "python-multipart",
+    "python-dotenv",
+    "pytest",
+    "httpx",
+    "rapidocr-onnxruntime",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+]

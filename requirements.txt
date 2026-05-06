@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+langgraph
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+chromadb
+PyMuPDF
+beautifulsoup4
+lxml
+python-multipart
+python-dotenv
+pytest
+httpx
+rapidocr-onnxruntime
